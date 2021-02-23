@@ -5,6 +5,6 @@ RUN mkdir /git-out \
 
 WORKDIR /git-out
 
-ENTRYPOINT git clone ../git .
-
 USER git-user
+
+ENTRYPOINT git clone ../git .
